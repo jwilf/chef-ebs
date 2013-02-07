@@ -8,4 +8,5 @@ version "0.2"
 recipe "ebs::volumes", "Mounts attached EBS volumes"
 recipe "ebs::raids", "Mounts attached EBS RAIDs"
 
+depends 'xfs'
 depends 'aws'

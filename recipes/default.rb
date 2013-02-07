@@ -1,7 +1,4 @@
-package "xfsprogs"
-package "xfsdump"
-package "xfslibs-dev"
-
+include_recipe 'xfs'
 include_recipe 'aws'
 
 # VirtIO device name mapping
